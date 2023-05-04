@@ -1,0 +1,78 @@
+@keyframes example {
+    from {transform: translate(0px);}
+    to {transform: translate(0px, -10px);}
+}
+
+.main{
+    background-color: darkgray;
+    display: flex;
+}
+
+.sample1{
+    position: relative;
+    background-color: burlywood;
+    border-radius: 15px;
+    margin: 0 20px;
+    width: 510px;
+    height: 285px;
+    top: 225px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.sample1:hover{
+    animation-name: example;
+    animation-duration: 0.8s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.sample2{
+    position: relative;
+    background-color: burlywood;
+    border-radius: 15px;
+    margin: 0 20px;
+    width: 510px;
+    height: 285px;
+    top: 225px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.sample2:hover{
+    animation-name: example;
+    animation-duration: 0.8s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+.sample3{
+    position: relative;
+    background-color: burlywood;
+    border-radius: 15px;
+    margin: 0 20px;
+    width: 510px;
+    height: 285px;
+    top: 225px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.sample3:hover{
+    animation-name: example;
+    animation-duration: 0.8s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
